@@ -1,0 +1,9 @@
+<?xml version="1.0" encording="utf-8" ?>
+<suit name="design pattern" verbose="1">
+    <test name="design pattern" preserve-order="true">
+        <packages>
+            <package name="org.example.pattern"></package>
+            <package name="org.example.stream"></package>
+        </packages>
+    </test>
+</suit>
