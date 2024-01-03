@@ -2,6 +2,7 @@ package org.example;
 
 import org.apache.commons.lang3.Validate;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -65,7 +66,7 @@ public class Candidate {
         private String name;
         private int age;
         private Gender gender;
-        private List<Degree> degrees;
+        private List<Degree> degrees = new ArrayList();
         private Optional<ContactInfo> contactInfo;
 
         public CandidateBuilder withName(String name){
